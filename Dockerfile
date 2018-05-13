@@ -2,6 +2,7 @@
 FROM alpine
 
 RUN apk --no-cache add \
+        zip \
         bash \
         less \
         groff \
